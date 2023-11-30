@@ -1,0 +1,90 @@
+body {
+    background-image: url('/Img/LOGO-ULEAM-HORIZONTAL.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.jumbotron {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+.jumbotron h1 {
+    color: #343a40;
+}
+
+.jumbotron p {
+    color: #6c757d;
+}
+
+.jumbotron a.btn-primary {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.jumbotron a.btn-primary:hover {
+    background-color: #23282c;
+    border-color: #23282c;
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+.btn-outline-success {
+    border-radius: 20px;
+}
+
+#searchResults {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+#searchResults ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#searchResults li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#searchResults li:hover {
+    background-color: #f8f9fa;
+}

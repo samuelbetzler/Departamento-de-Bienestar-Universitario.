@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head   >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/scss/Search_filter.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departamento de Bienestar Universitario</title>
+    <link rel="icon" href="/Img/LOGO-ULEAM-HORIZONTAL.png" type="image/x-icon">
+</head>
+<body style="background-image: url('/Img/LOGO-ULEAM-HORIZONTAL.png'); background-size: contain; background-repeat: no-repeat; background-position: center; height: 100vh;">
+    
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">ULEAM</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Noticias.html">Noticias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Eventos.html">Eventos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.uleam.edu.ec/informacion-institucional/ ">Información</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Recursos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="Guia_de_manejo_del_estres.html">Guía de Manejo del Estrés</a></li>
+                      <li><a class="dropdown-item" href="#"></a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#"></a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true"></a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+
+    </div>
+
+    <div class="search-filter">         
+      <div class="search-options">             
+      <select id="filtro_area" class="filtro_area">                 
+      <option value="area" id="area" selected>Área</option>                 
+      <option value="Contabilidad" id="Contabilidad">Asesoramiento y Orientación</option>                 
+      <option value="TI" id="TI">Salud y Bienestar</option>                 
+      <option value="Finanzas" id="Finanzas">Desarrollo Personal y Profesional</option>                 
+      <option value="Mantenimiento" id="Mantenimiento">Comunidad y Eventos Sociales</option>                 
+      <option value="Jefe_area">Apoyo Financiero</option>             
+    </select>             
+      <button id="sort-button">Ordenar A-Z</button>         
+    </div>         
+    <input type="text" id="search-input" placeholder="Buscar servicio">         
+    <button id="search-button" >Buscar</button>                                        
+  </div>
+
+    <!-- Parte de tarjetas -->
+    <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/Img/Asesoria academica.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Asesoramiento Académico</h5>
+                  <p class="card-text">Ofrecemos asesoramiento personalizado para ayudarte a alcanzar tus metas académicas. Ya sea que necesites ayuda con la planificación de cursos, la elección de especializaciones o la gestión del tiempo, estamos aquí para apoyarte.</p>
+                  <p class="card-text">
+                    <small class="text-body-secondary">
+                        <a href="/Servicio_info.html" class="btn btn-outline-primary">Acerca de...</a>
+                    </small>
+                </p>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/Img/Apoyo Emocional.jpeg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Apoyo Emocional</h5>
+                  <p class="card-text">Nuestro equipo de profesionales capacitados está disponible para brindar apoyo emocional. Entendemos que la vida universitaria puede ser desafiante, y estamos comprometidos a proporcionar un espacio seguro para discutir tus preocupaciones y encontrar soluciones juntos.</p>
+                  <p class="card-text">
+                    <small class="text-body-secondary">
+                        <a href="/Servicio_info.html" class="btn btn-outline-primary">Acerca de...</a>
+                    </small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/Img/Bienestar Fisico.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Programas de Bienestar Físico</h5>
+                  <p class="card-text">Formamos parte de tu viaje hacia un estilo de vida más saludable. Nuestros programas incluyen clases de ejercicio, yoga y eventos deportivos para mantenerte activo y saludable mientras te concentras en tus estudios.</p>
+                  <small class="text-body-secondary">
+                    <a href="/Servicio_info.html" class="btn btn-outline-primary">Acerca de...</a>
+                </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/Img/Eventos y actividades sociales.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Eventos y Actividades Sociales</h5>
+                  <p class="card-text"> ¡Únete a nosotros en nuestros eventos y actividades sociales! Estamos comprometidos a construir una comunidad fuerte y vibrante. Desde clubes hasta eventos especiales, siempre hay oportunidades para hacer nuevos amigos y disfrutar de tu tiempo en la universidad.</p>
+                  <small class="text-body-secondary">
+                    <a href="/Servicio_info.html" class="btn btn-outline-primary">Acerca de...</a>
+                </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/Img/Orientación y Transición.jpeg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Orientación y Transición</h5>
+                  <p class="card-text">¿Eres nuevo en nuestra universidad? Nuestro equipo de orientación está aquí para ayudarte a navegar por esta emocionante transición. Te proporcionaremos la información y el apoyo que necesitas para sentirte cómodo y bienvenido.</p>
+                  <small class="text-body-secondary">
+                    <a href="/Servicio_info.html" class="btn btn-outline-primary">Acerca de...</a>
+                </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/Img/Servicios de Empleabilidad.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Servicios de Empleabilidad</h5>
+                  <p class="card-text">En el Departamento de Bienestar, nos enorgullece ayudarte a construir tu futuro profesional. Desde talleres de desarrollo de habilidades hasta asesoramiento individual, estamos comprometidos a apoyarte en tu búsqueda de empleo y crecimiento profesional.</p>
+                  <small class="text-body-secondary">
+                    <a href="/Servicio_info.html" class="btn btn-outline-primary">Acerca de...</a>
+                </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/Img/Recursos de Salud Mental.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Asistencia Financiera</h5>
+                  <p class="card-text">Entendemos las preocupaciones financieras que pueden surgir durante tu tiempo en la universidad. Nuestro equipo te proporcionará información sobre becas, opciones de préstamos y oportunidades de empleo para ayudarte a navegar por estas decisiones financieras importantes.</p>
+                  <small class="text-body-secondary">
+                    <a href="/Servicio_info.html" class="btn btn-outline-primary">Acerca de...</a>
+                </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/Img/Desarrollo Personal.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Programas de Desarrollo Personal</h5>
+                  <p class="card-text">En el Departamento de Bienestar, nos apasiona tu crecimiento personal. Únete a nuestros programas y talleres diseñados para fortalecer tus habilidades de liderazgo, gestión del tiempo y toma de decisiones, preparándote para un futuro exitoso.</p>
+                  <small class="text-body-secondary">
+                    <a href="/Servicio_info.html" class="btn btn-outline-primary">Acerca de...</a>
+                </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="/Img/Apoyo Estudiantes Internacionales.avif" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Apoyo a Estudiantes Internacionales</h5>
+                  <p class="card-text"> Como estudiantes internacionales, entendemos las transiciones únicas que enfrentas. Nuestro equipo está dedicado a ofrecerte apoyo específico, desde asesoramiento sobre visas hasta la creación de una red de compañeros internacionales para que te sientas como en casa.</p>
+                  <small class="text-body-secondary">
+                    <a href="/Servicio_info.html" class="btn btn-outline-primary">Acerca de...</a>
+                </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+                  
+      
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
